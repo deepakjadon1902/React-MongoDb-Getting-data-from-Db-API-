@@ -140,7 +140,7 @@ export const Table = (props) => {
       </table>
       {sidebarOpen && (
         <div style={{ position: "fixed", top: 0, right: 0, width: "300px", height: "100vh", backgroundColor: "#f0f0f0", padding: "20px", zIndex: 1000, color: "#000"}}>
-          <h2>Row Details</h2>
+          <h2>User Edit</h2>
           <p>Username: {selectedRow.name}</p>
           <p>Email: {selectedRow.email}</p>
           <p>Phonenumber: {selectedRow.Phonenumber}</p>
