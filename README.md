@@ -143,7 +143,7 @@ export const Table = (props) => {
           <h2>Row Details</h2>
           <p>Username: {selectedRow.name}</p>
           <p>Email: {selectedRow.email}</p>
-          <p>Phonenumber: {selectedRow.phonenumber}</p>
+          <p>Phonenumber: {selectedRow.Phonenumber}</p>
           <button onClick={handleCloseSidebar}>Close</button>
         </div>
       )}
